@@ -1,0 +1,4 @@
+{
+    "mensaje" : "Hola desde la API en formato JSON",
+    "estado" : "activo"
+}
