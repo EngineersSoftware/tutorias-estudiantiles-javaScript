@@ -1,0 +1,26 @@
+<!-- public/index.html: Página principal del frontend. -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title> <!-- Título de la página. -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza CSS. -->
+</head>
+
+<body>
+    <div class="container"> <!-- Contenedor principal para centrar contenido. -->
+        <h1>Mi Lista de Tareas</h1> <!-- Título principal. -->
+        <form id="task-form"> <!-- Formulario para agregar/editar tareas. -->
+            <input type="hidden" id="edit-id"> <!-- Hidden input para trackear ID en edición. -->
+            <input type="text" id="task-input" placeholder="Agrega una tarea..." required> <!-- Input para tarea. -->
+            <button type="submit">Agregar</button> <!-- Botón de submit. -->
+        </form>
+        <ul id="task-list"></ul> <!-- Lista para mostrar tareas. -->
+    </div>
+
+    <script src="script.js"></script> <!-- Enlaza JS separado. -->
+</body>
+
+</html>

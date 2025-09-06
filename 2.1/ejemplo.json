@@ -1,0 +1,27 @@
+{
+    "nombre": "Andres Hernandez",
+    "frutas": [
+        "Manzana",
+        "Fresa",
+        "Coco"
+    ],
+    "esEstudiante": true,
+    "edad": 17,
+    "hobbies": [
+        "Viajar",
+        "Programar"
+    ],
+    
+    "direccion": [
+        {
+            "nombre": "Andres Hernandez",
+            "calle": "AV. principal",
+            "ciudad": "Medellin"
+        },
+        {
+            "nombre" : "Yeraldin",
+            "calle" : "Sur",
+            "ciudad" : "Bogota"
+        }
+    ]
+}

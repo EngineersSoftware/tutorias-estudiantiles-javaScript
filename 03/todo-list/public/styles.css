@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif; /* Fuente básica y fallback. */
+  background-color: #f4f4f4; /* Fondo gris claro. */
+  margin: 0; /* Elimina márgenes default. */
+  padding: 0; /* Elimina paddings default. */
+}
+
+.container {
+  max-width: 600px; /* Ancho máximo para centrar. */
+  margin: 50px auto; /* Centra horizontalmente con margen superior. */
+  padding: 20px; /* Espacio interno. */
+  background: white; /* Fondo blanco. */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil. */
+  border-radius: 8px; /* Bordes redondeados. */
+}
+
+h1 {
+  text-align: center; /* Centra texto. */
+  color: #333; /* Gris oscuro. */
+}
+
+form {
+  display: flex; /* Layout flexbox. */
+  margin-bottom: 20px; /* Espacio inferior. */
+}
+
+input[type="text"] {
+  flex: 1; /* Ocupa espacio restante. */
+  padding: 10px; /* Espacio interno. */
+  border: 1px solid #ddd; /* Borde gris claro. */
+  border-radius: 4px; /* Redondeado. */
+}
+
+button {
+  padding: 10px 20px; /* Espacio interno. */
+  background: #28a745; /* Verde éxito. */
+  color: white; /* Texto blanco. */
+  border: none; /* Sin borde. */
+  border-radius: 4px; /* Redondeado. */
+  margin-left: 10px; /* Espacio izquierdo. */
+  cursor: pointer; /* Mano al hover. */
+}
+
+button:hover {
+  background: #218838; /* Verde más oscuro al hover. */
+}
+
+ul {
+  list-style: none; /* Sin bullets. */
+  padding: 0; /* Sin padding. */
+}
+
+li {
+  display: flex; /* Flex para alinear texto y botones. */
+  justify-content: space-between; /* Espacio entre texto y botones. */
+  align-items: center; /* Centra vertical. */
+  padding: 10px; /* Espacio interno. */
+  border-bottom: 1px solid #ddd; /* Línea separadora. */
+}
+
+li:last-child {
+  border-bottom: none; /* Sin borde en el último. */
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px; /* Espacio más pequeño para botones secundarios. */
+  margin-left: 10px; /* Espacio entre botones. */
+  border: none; /* Sin borde. */
+  border-radius: 4px; /* Redondeado. */
+  cursor: pointer; /* Mano al hover. */
+}
+
+.edit-btn {
+  background: #ffc107; /* Amarillo para edit. */
+  color: #333; /* Texto oscuro. */
+}
+
+.edit-btn:hover {
+  background: #e0a800; /* Más oscuro al hover. */
+}
+
+.delete-btn {
+  background: #dc3545; /* Rojo para delete. */
+  color: white; /* Texto blanco. */
+}
+
+.delete-btn:hover {
+  background: #c82333; /* Más oscuro al hover. */
+}
